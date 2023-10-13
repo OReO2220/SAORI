@@ -1,8 +1,8 @@
 #include <ESP32Servo.h>
 
 #define hallpin 33 //INA:33 INB:32
-#define ledPin 13 //OUTA:26 OUTB:13
-#define moterPin 26
+#define ledPin 26 //OUTA:26 OUTB:13
+#define moterPin 13
 #define on LOW
 #define off HIGH
 Servo myservo;
